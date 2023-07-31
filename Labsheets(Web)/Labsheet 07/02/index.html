@@ -1,0 +1,38 @@
+<html>
+  <head>
+    
+    <script>
+      sum;
+      function x() {
+        total = 0;
+        for (i = 1; i < 6; i++) {
+          y = parseInt(prompt("Enter Number " + i, ""));
+          total = total + y;
+        }
+
+        sum = total;
+
+        document.getElementById("total").innerHTML = total;
+        document.getElementById("avg").innerHTML = total / 5;
+      }
+
+      function msgBox() {
+        if (avg > 30) {
+          window.alert("Congrats! You Passed");
+        } else {
+          window.alert("Better Luck next time");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <p>Sum is :</p>
+    <p id="total"></p>
+    <p>Average is :</p>
+    <p id="avg"></p>
+    <br>
+    <input type="button" name="submit" value="Submit" onclick="x()" />
+    <input type="button" name="Grade" value="Grade" onclick="msgBox()" />
+  </body>
+</html>

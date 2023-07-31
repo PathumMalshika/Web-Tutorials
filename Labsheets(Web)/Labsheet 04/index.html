@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <style>
+         .c1 {
+             border-style: groove;
+             width:30%;
+             margin-top: 100px;
+             height:400px;
+
+         }
+        </style>
+    </head>
+    <body>
+        <form action="" method="post"> 
+        <center>
+            <div class="c1">
+            <h3>Car Registration</h3>
+        <table>
+            <tr>
+                <td><label for="nm">Owner Name</label></td>
+                <td><input type="text" name="nm" placeholder="Owner Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="nm" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone number">Phone Number</label></td>
+                <td><input type="number" name="nm" placeholder="Phone number"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><select>
+                    <option value="S">Sri Lanka</option>
+                    <option value="i">India</option>
+                    <option value="p">Pakistan</option>
+                    <option value="a">America</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="model">Car Model</label></td>
+                <td><input type="number" name="nm" ></td>
+            </tr>
+            <tr>
+                <td><label for="mfd">Manufacture Year</label></td>
+                <td><select name="mfd">
+                    <option value="default">Select Year</option>
+                    <option value="16">2016</option>
+                    <option value="17">2017</option>
+                    <option value="18">2018</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="tm">Transmission</label></td>
+                <td><input type="radio" name="rd" >Manual
+                <input type="radio" name="rd" >Auto</td>
+            </tr>
+            <tr>
+                <td><label for="other">Other</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+        <tr>
+            <td>
+        <input type="checkbox" name="cb" required>I agree to the conditions and terms
+            </td>
+        </tr>
+        
+        <tr>
+            <td><input type="Submit" name="Submit" value="Submit"></td>
+            <td><input type="Reset" name="reset" value="Reset"></td>
+        </tr>
+        </table>
+    </div>
+    </center>
+      </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title> </title>
+
+    <style>
+      .b1 {
+        font-size: 75px;
+
+        width: 300px;
+      }
+
+      .btn {
+        display: flex;
+        text-align: center;
+        align-items: middle;
+      }
+    </style>
+
+    <script>
+      function x() {
+        if (confirm("Are you sure you want to visit Google?")) {
+          window.location.href = "https://www.google.com";
+        } else {
+          window.alert("Your decided to stay");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="btn"><button class="b1" onclick="x()">Google</button></div>
+  </body>
+</html>
